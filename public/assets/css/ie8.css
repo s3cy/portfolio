@@ -1,95 +1,29 @@
 /*
-	Spectral by HTML5 UP
+	Astral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Icon */
+/* Basic */
 
-	.icon.major {
-		border: none;
-	}
-
-		.icon.major:before {
-			font-size: 3em;
-		}
-
-/* Form */
-
-	label {
-		color: #2E3842;
-	}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		border: solid 1px #dfdfdf;
-	}
-
-/* Button */
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		border: solid 2px #dfdfdf;
-	}
-
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
-			border: 0 !important;
-		}
-
-/* Page Wrapper + Menu */
-
-	#menu {
-		display: none;
-	}
-
-	body.is-menu-visible #menu {
-		display: block;
-	}
-
-/* Header */
-
-	#header nav > ul > li > a.menuToggle:after {
-		display: none;
-	}
-
-/* Banner + Wrapper (style4) */
-
-	#banner,
-	.wrapper.style4 {
+	body {
+		background-image: url("images/bg.jpg");
+		background-size: cover;
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 	}
 
-		#banner:before,
-		.wrapper.style4:before {
-			display: none;
-		}
+/* Section/Article */
 
-/* Banner */
-
-	#banner .more {
-		height: 4em;
+	section > .last-child, section.last-child, article > .last-child, article.last-child {
+		margin-bottom: 0;
 	}
 
-		#banner .more:after {
-			display: none;
-		}
+/* Nav */
 
-/* Main */
-
-	#main > header {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	#nav a span {
+		display: none !important;
 	}
 
-		#main > header:before {
-			display: none;
-		}
+	#nav a:before {
+		font-size: 1.75em;
+	}
