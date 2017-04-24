@@ -1059,7 +1059,7 @@
 	#nav a {
 		position: relative;
 		display: inline-block;
-		color: #ffffff;
+		color: #222222;
 		width: 1em;
 		height: 1em;
 		line-height: 0.9em;
@@ -1405,15 +1405,15 @@
 					#me header > h1 {
 						position: absolute;
 						left: 0;
-						bottom: 52.5%;
+						bottom: 62.5%;
 						margin: 0;
 					}
 
 					#me header > p {
 						position: absolute;
 						left: 0;
-						top: 52.5%;
-						font-size: 1.5em;
+						top: 42.5%;
+						font-size: 1em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
 					}
@@ -1582,3 +1582,17 @@
 					}
 
 	}
+
+#progress {
+	border-radius: 3px;
+	width: 100%;
+	border-style: solid;
+	border-width: thin;
+	border-color: #222;
+}
+
+#progress #bar {
+	border-radius: 3px;
+	height: 20px;
+	background-color: #4caf50;
+}
